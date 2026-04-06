@@ -1,0 +1,54 @@
+# ===== C/C++ Compilation =====
+*.o
+*.obj
+*.lo
+*.gch
+*.pch
+
+# Executables
+*.out
+*.exe
+*.app
+*.elf
+
+# Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+
+# ===== Build directories =====
+build/
+bin/
+out/
+dist/
+
+# ===== Node.js =====
+node_modules/
+
+# ===== VS Code =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ===== Temporary files =====
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ===== Logs =====
+*.log
+
+# ===== Coverage / Profiling =====
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+
+# ===== Operating System files =====
+.DS_Store
+Thumbs.db
